@@ -1,9 +1,9 @@
 const {Model, DataTypes} = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Categories extends Model {}
+class Category extends Model {}
 
-    Categories.init(
+    Category.init(
         {
           // define columns
           // id column
@@ -23,6 +23,6 @@ class Categories extends Model {}
         sequelize,
         timestamps: false,
         freezeTableName: true,
-        modelName: 'categories',
+        modelName: 'category',
     }
 );
