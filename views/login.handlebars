@@ -1,13 +1,13 @@
 <main>
-<form>
-  <div class="mb-3">
-    <label for="loginUsername" class="form-label">Username</label>
-    <input type="username" class="form-control" id="loginUsername">
-  </div>
-  <div class="mb-3">
-    <label for="loginPassword" class="form-label">Password</label>
-    <input type="password" class="form-control" id="loginPassword">
-  </div>
-  <button type="submit" id="loginButton" class="btn btn-primary">Login</button>
-</form>
+  <form method="POST" action="/login">
+    <div class="mb-3">
+      <label for="loginUsername" class="form-label">Username</label>
+      <input type="text" class="form-control" id="loginUsername" name="username">
+    </div>
+    <div class="mb-3">
+      <label for="loginPassword" class="form-label">Password</label>
+      <input type="password" class="form-control" id="loginPassword" name="password">
+    </div>
+    <button type="submit" id="loginButton" class="btn btn-primary">Login</button>
+  </form>
 </main>
