@@ -14,7 +14,12 @@ const app = express();
 
 const sess = {
   secret: 'secret',
-  cookie: {},
+  cookie: {
+    maxAge: 300000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'strict',
+  },
   resave: true,
   saveUninitialized: true,
   store: new sqlizeStore({
