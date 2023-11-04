@@ -16,7 +16,7 @@ class Category extends Model {}
         category_name:{
           type: DataTypes.STRING,
           allowNull: false
-          }
+          },
         },
         
     {
@@ -26,3 +26,5 @@ class Category extends Model {}
         modelName: 'category',
     }
 );
+
+module.exports = Category;

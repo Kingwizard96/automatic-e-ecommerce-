@@ -13,4 +13,19 @@ const categoryData = [
     {
         category_name: 'miscellaneous',
     },
+    {
+        category_name: 'furniture',
+    },
+    {
+        category_name: 'toys',
+    },
+    {
+        category_name: 'beauty',
+    },
+    {
+        category_name: 'motor vehicles',
+    },
+    {
+        category_name: 'pets',
+    }
 ];
