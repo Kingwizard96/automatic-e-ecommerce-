@@ -36,10 +36,6 @@ const loginHandler = async (event) => {
         });
 
         if (response.ok) {
-            const data = await response.json();
-
-            localStorage.setItem('jwtToken', data.token);
-
             document.location.replace('/home');
         } else {
             alert('Login failed. Please check your credentials.');
@@ -49,4 +45,4 @@ const loginHandler = async (event) => {
 
 
 document.querySelector('.signup-form').addEventListener('submit', signupHandler);
-document.querySelector('login-form').addEventListener('submit', loginHandler);
+document.querySelector('.login-form').addEventListener('submit', loginHandler);
