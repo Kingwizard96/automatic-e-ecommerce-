@@ -26,3 +26,7 @@ Order.belongsTo(User, {
 
 
 
+const User = require('./user');
+
+module.exports = { User };
+
