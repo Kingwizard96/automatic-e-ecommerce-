@@ -1,0 +1,207 @@
+html {
+    background-color: rgba(17, 37, 47, 1);
+}
+
+.bg-container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-position: top center; 
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.cardheading {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 80px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+    text-align: center;
+}
+
+.listingcards1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+.listingcards2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 20px;
+    width: 1024px;
+}
+
+.listingcards3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-flex;
+    width: 1024px;
+}
+
+.listingcard {
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;   
+    box-shadow: 10px 10px 15px rgba(32, 28, 35, 1);
+    flex-wrap: wrap;
+    display: grid;
+}
+
+.cardimg {
+    height: 250px;
+    width: 300px;
+}
+
+.cardtxt {
+    height: 60px;
+    width: 300px;
+    background-color: black;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.mybutton {
+    background-color: rgba(58, 0, 136, 1);
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+.mybutton:hover {
+    background-color: black;
+    transition-duration: 1s;
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 1
+    0px;
+}
+
+.navbutton {
+    padding-right: 140px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    align-items: center;
+}
+
+.loginnavbutton {
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+}
+
+.signupnavbutton {
+    background-color: rgba(58, 0, 136, 1);
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+/* Footer Section */
+
+.footer-social a {
+    color: white;
+}
+
+#footer-heading {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    padding-top: 40px;
+    background-color: linear-gradient(rgba(31, 95, 131, 1), rgba(11, 10, 9, 1));
+    height: 200px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    border-top: 1px solid white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
