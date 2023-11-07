@@ -26,7 +26,5 @@ Order.belongsTo(User, {
 
 
 
-const User = require('./user');
-
-module.exports = { User };
+module.exports = { Item, Category, User, Order };
 

@@ -1,0 +1,108 @@
+[
+    {
+    "order_id": "12345",
+    "customer":{
+        "name": "Bulbasaur",
+        "email": "email@yahoo.com"
+    },
+    "items": [
+       {
+            "item_name": "playstation 5 digital edition",
+            "original_price": 399.99,
+            "item_quantity": 1
+       },
+       {
+            "item_name": "playstation 5 dualsense controller",
+            "original_price": 69.99,
+            "item_quantity": 2
+       }
+    ],  
+    "total_price": 539.97,
+    "order_date": "2021-01-01",
+    "order_status": "shipped"
+    },
+    {
+    "order_id": "12346",
+    "customer":{
+        "name": "Charmander",
+        "email": "charmander2@yahoo.com"
+    },
+    "items": [
+       {
+            "item_name": "nintendo switch",
+            "original_price": 199.99,
+            "item_quantity": 1
+       },
+       {
+            "item_name": "Plain T-Shirt",
+            "original_price": 14.99,
+            "item_quantity": 2
+       }
+    ],
+    "total_price": 229.97,
+    "order_date": "2021-01-02",
+    "order_status": "processing"
+    },
+    {
+    "order_id": "12347",
+    "customer":{
+        "name": "Squirtle",
+        "email": "Squirtler@aol.com"
+    },
+    "items": [
+       {
+            "item_name": "nike dunk low",
+            "original_price": 100.00,
+            "item_quantity": 2
+       },
+       {
+            "item_name": "Microwave",
+            "original_price": 100.00,
+            "discount": 0.25,
+            "item_quantity": 2
+       }
+    ],
+    "total_price": 225.00,
+    "order_date": "2021-01-03",
+    "order_status": "delivered"
+    },
+    {
+    "order_id": "12348",
+    "customer":{
+        "name": "Pikachu",
+        "email": "emailPika@yahoo.com"
+    },
+    "items": [
+       {
+            "item_name": "bmw 2018 3 series",
+            "original_price": 20000,
+            "item_quantity": 1
+       }
+    ],
+    "total_price": 20000,
+    "order_date": "2021-01-04",
+    "order_status": "delivered"
+    },
+    {
+    "order_id": "12349",
+    "customer":{
+        "name": "Eevee",
+        "email": "eevee@gmail.com"
+    },
+    "items": [
+       {
+            "item_name": "iphone 12",
+            "original_price": 1000.99,
+            "item_quantity": 1
+       },
+       {
+            "item_name": "iphone 12 case",
+            "original_price": 49.99,
+            "item_quantity": 1
+       }
+    ],
+    "total_price": 1050.98,
+    "order_date": "2021-01-05",
+    "order_status": "processing"
+    }
+]

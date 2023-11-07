@@ -27,4 +27,4 @@ class Category extends Model {}
     }
 );
 
-module.exports = { Category };
+module.exports = Category;

@@ -35,7 +35,7 @@ Item.init(
       discounted_price:{
         type: DataTypes.DECIMAL(10,2),
         allowNull: false,
-        defaultValue: 0.00,
+        defaultValue: 1.00,
         validate: {
           isDecimal: true
         }

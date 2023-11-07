@@ -61,3 +61,5 @@ ShopCart.init(
          }
 
 );
+
+module.exports = ShopCart;

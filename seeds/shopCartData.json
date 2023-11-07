@@ -1,0 +1,94 @@
+{ 
+    "carts": [ 
+      {
+    "cart_id": "cart123",
+    "user_id": "user456",
+    "items": [
+       {
+        "item_name": "playstation 5 digital edition",
+        "item_quantity": 1,
+        "item_price": 399.99
+       },
+       {
+        "item_name": "playstation 5 dualsense controller",
+        "item_quantity": 2,
+        "item_price": 69.99
+       },
+         {
+          "item_name": "playstation 5 pulse 3d headset",
+          "item_quantity": 1,
+          "item_price": 99.99
+         }
+    ],
+    "total_price": 639.96
+    },
+    {
+        "cart_id": "cart124",
+        "user_id": "user123",
+        "items": [
+            {
+                "item_name": "nintendo switch",
+                "item_quantity": 1,
+                "item_price": 199.99
+            },
+            {
+                "item_name": "plain t-shirt",
+                "item_quantity": 2,
+                "item_price": 14.99
+            },
+            {
+                "item_name": "xbox series x",
+                "item_quantity": 1,
+                "item_price": 499.99
+            }
+        ],
+        "total_price": 729.96
+    },
+    {
+        "cart_id": "cart125",
+        "user_id": "user789",
+        "items": [
+            {
+                "item_name": "nike dunk low",
+                "item_quantity": 2,
+                "item_price": 100.00
+            },
+            {
+                "item_name": "plain t-shirt",
+                "item_quantity": 2,
+                "item_price": 14.99
+            },
+            {
+                "item_name": "Microwave",
+                "item_quantity": 2,
+                "item_price": 100.00
+            }
+        ],
+        "total_price": 429.98
+    },
+    {
+        "cart_id": "cart126",
+        "user_id": "user111",
+        "items": [
+            {
+                "item_name": "iphone 12",
+                "item_quantity": 1,
+                "item_price": 1000.99
+            },
+            {
+                "item_name": "iphone 12 case",
+                "item_quantity": 1,
+                "item_price": 49.99
+            },
+            {
+                "item_name": "toaster",
+                "item_quantity": 2,
+                "item_price": 100.00
+            }
+        ],
+        "total_price": 429.98
+     }
+    ]
+}
+
+
