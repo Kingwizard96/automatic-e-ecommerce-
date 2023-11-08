@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Listing</title>
+    <link rel="stylesheet" href="./Assets/createlisting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="bg-container">
+        <header>
+            <div class="logo">
+                <a href="./Ecommerce.html">
+                    <img src="./Assets/images/Logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <nav>
+
+                <div class="navbutton">
+                    <a href="./Ecommerce.html">Home</a>
+                </div>
+
+                <div class="navbutton">
+                    <a href="./gettheapp.html">Get The App</a>
+                </div>
+
+                <div class="navbutton">
+                    <a href="#">Help Center</a>
+                </div>
+
+            </nav>
+        </header>
+
+
+
+    <h1>Create Listing</h1>
+    <form id="product-listing-form">
+        <!-- Title -->
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <!-- Price -->
+        <label for "price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+        
+        <!-- Category -->
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="electronics">Electronics</option>
+            <option value="vehicle">Vehicle</option>
+            <option value="clothing">Clothing</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="home goods">Home Goods</option>
+            <option value="sporting goods">Sporting Goods</option>
+            <option value="toys & games">Toys & Games</option>
+            <option value="auto parts">Auto Parts</option>
+            <option value="free stuff">Free Stuff</option>
+            <!-- Add more category options as needed -->
+        </select>
+        
+        <!-- Condition -->
+        <label for="condition">Condition:</label>
+        <select id="condition" name="condition" required>
+            <option value="new">New</option>
+            <option value="used-like-new">Used (Like New)</option>
+            <option value="used-good">Used (Good)</option>
+            <option value="used-fair">Used (Fair)</option>
+            <!-- Add more condition options as needed -->
+        </select>
+        
+        <!-- Description -->
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <!-- Image Upload (if needed) -->
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        
+        <button type="submit">Create Listing</button>
+    </form>
+
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <h4 id="footer-heading">FOLLOW US</h4>
+            <div class="footer-social">
+                <a href="#" target="_blank" class="fa fa-facebook"></a>
+                <a href="#" target="_blank" class="fa fa-twitter"></a>
+                <a href="#" target="_blank" class="fa fa-instagram"></a>
+                <br>
+                <br>
+            </div>
+
+            <div class="footer-bottom">
+                All rights reserved - Copyright 2023©
+
+            </div>
+
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
