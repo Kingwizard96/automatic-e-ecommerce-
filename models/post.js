@@ -1,5 +1,8 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
+const User = require('./user');
+const Item = require('./item');
+const Category = require('./category'); // Make sure to require the Category model
 
 class Post extends Model {}
 
@@ -17,7 +20,21 @@ Post.init(
     user_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'User', 
+        model: User, 
+        key: 'id',
+      },
+    },
+    item_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: Item, 
+        key: 'id',
+      },
+    },
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: Category, 
         key: 'id',
       },
     },
