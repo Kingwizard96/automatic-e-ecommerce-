@@ -38,10 +38,11 @@ Order.init(
             }
         },
         // shipping_address column
-        shipping_address: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
+        // shipping_address: {
+        //     type: DataTypes.STRING,
+        //     allowNull: false
+        // },
+        // Commented out temporarily for testing purposes
         // order_date column
         order_date: {
             type: DataTypes.DATE,

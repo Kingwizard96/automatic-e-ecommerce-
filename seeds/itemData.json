@@ -1,91 +1,91 @@
 [
     {
         "item_name": "Plain T-Shirt",
-        "original_price": 14.99,
+        "item_price": 14.99,
         "stock": 14,
         "category_id": 1,
         "description": "Plain t-shirt for everyday wear."
     },
     {
         "item_name": "playstation 5 digital edition",
-        "original_price": 399.99,
+        "item_price": 399.99,
         "stock": 25,
         "category_id": 2,
         "description": "The newest gaming console from Sony."
     },
     {
         "item_name": "playstation 5 pulse 3d headset",
-        "original_price": 99.99,
+        "item_price": 99.99,
         "stock": 25,
         "category_id": 2,
         "description": "The newest gaming headset from Sony."
     },
     {
         "item_name": "Xbox Series X",
-        "original_price": 499.99,
+        "item_price": 499.99,
         "stock": 25,
         "category_id": 2,
         "description": "The newest gaming console from Microsoft."
     },
     {
         "item_name": "Nintendo Switch",
-        "original_price": 299.99,
+        "item_price": 299.99,
         "stock": 25,
         "category_id": 2,
         "description": "The newest gaming console from Nintendo."
     },
     {
         "item_name": "Nintendo Switch Lite",
-        "original_price": 199.99,
+        "item_price": 199.99,
         "stock": 25,
         "category_id": 2,
         "description": "A smaller version of the Nintendo Switch."
     },
     {
         "item_name": "Xbox Series S",
-        "original_price": 299.99,
+        "item_price": 299.99,
         "stock": 25,
         "category_id": 2,
         "description": "A smaller version of the Xbox Series X."
     },
     {
         "item_name": "Playstation 5 Standard Edition",
-        "original_price": 499.99,
+        "item_price": 499.99,
         "stock": 25,
         "category_id": 2,
         "description": "The standard edition of the Playstation 5."
     },
     {
         "item_name": "honda civic 2009 ls",
-        "original_price": 5000,
+        "item_price": 5000,
         "stock": 1,
         "category_id": 8,
         "description": "A used honda civic 2009 ls."
     },
     {
         "item_name": "bmw 2018 3 series",
-        "original_price": 20000,
+        "item_price": 20000,
         "stock": 1,
         "category_id": 8,
         "description": "A used bmw 2018 3 series."
     },
     {
         "item_name": "nike dunk low",
-        "original_price": 100,
+        "item_price": 100,
         "stock": 12,
         "category_id": 1,
         "description": "A pair of nike dunk low."
     },
     {
         "item_name": "nike dunk high",
-        "original_price": 100,
+        "item_price": 100,
         "stock": 18,
         "category_id": 1,
         "description": "A pair of nike dunk high."
     },
     {
         "item_name": "kurig coffee maker",
-        "original_price": 100,
+        "item_price": 100,
         "stock": 10,
         "category_id": 3,
         "description": "A kurig coffee maker.",
@@ -93,7 +93,7 @@
     },
     {
         "item_name": "microwave",
-        "original_price": 100,
+        "item_price": 100,
         "stock": 10,
         "category_id": 3,
         "description": "A microwave.",
@@ -101,7 +101,7 @@
     },
     {
         "item_name": "toaster",
-        "original_price": 100,
+        "item_price": 100,
         "stock": 10,
         "category_id": 3,
         "description": "A toaster.",
@@ -109,35 +109,35 @@
     },
     {
         "item_name": "blender",
-        "original_price": 100,
+        "item_price": 100,
         "stock": 10,
         "category_id": 3,
         "description": "A blender."
     },
     {
         "item_name": "siberian-husky",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 9,
         "description": "A siberian-husky puppy."
     },
     {
         "item_name": "german-shepherd",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 9,
         "description": "A german-shepherd puppy."
     },
     {
         "item_name": "golden-retriever",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 9,
         "description": "A golden-retriever puppy."
     },
     {
         "item_name": "couch",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 4,
         "description": "A couch.",
@@ -145,7 +145,7 @@
     },
     {
         "item_name": "chair",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 4,
         "description": "A chair.",
@@ -153,7 +153,7 @@
     },
     {
         "item_name": "table",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 4,
         "description": "A table.",
@@ -161,28 +161,28 @@
     },
     {
         "item_name": "bed",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 4,
         "description": "A bed."
     },
     {
         "item_name": "iphone 12",
-        "original_price": 1000.99,
+        "item_price": 1000.99,
         "stock": 1,
         "category_id": 5,
         "description": "A iphone 12."
     },
     {
         "item_name": "iphone 12 case",
-        "original_price": 49.99,
+        "item_price": 49.99,
         "stock": 12,
         "category_id": 5,
         "description": "A iphone 12 case."
     },
     {
         "item_name": "iphone 11",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 5,
         "description": "A iphone 11.",
@@ -190,7 +190,7 @@
     },
     {
         "item_name": "iphone 10",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 5,
         "description": "A iphone 10.",
@@ -198,14 +198,14 @@
     },
     {
         "item_name": "iphone 9",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 5,
         "description": "A iphone 9."
     },
     {
         "item_name": "macbook pro",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 6,
         "description": "A macbook pro.",
@@ -213,7 +213,7 @@
     },
     {
         "item_name": "macbook air",
-        "original_price": 1000,
+        "item_price": 1000,
         "stock": 1,
         "category_id": 6,
         "description": "A macbook air.",
@@ -221,21 +221,21 @@
     },
     {
         "item_name":"fenty makeup",
-        "original_price": 300,
+        "item_price": 300,
         "stock": 12,    
         "category_id": 7,
         "description": "A fenty makeup."
     },
     {
         "item_name":"hair dryer",   
-        "original_price": 300,
+        "item_price": 300,
         "stock": 12,
         "category_id": 7,
         "description": "A hair dryer."
     },
     {
         "item_name":"hair straightener",
-        "original_price": 300,
+        "item_price": 300,
         "stock": 12,
         "category_id": 7,
         "description": "A hair straightener."

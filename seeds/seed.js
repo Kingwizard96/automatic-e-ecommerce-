@@ -14,14 +14,14 @@ const seedDatabase = async () => {
         individualHooks: true,
         returning: true,
     });
+
+    await Category.bulkCreate(categoryData);
     
-    const items = await Item.bulkCreate(itemData);
+     await Item.bulkCreate(itemData);
     
-    const categories = await Category.bulkCreate(categoryData);
+    await Order.bulkCreate(orderData);
     
-    const orders = await Order.bulkCreate(orderData);
-    
-    const shopCarts = await ShopCart.bulkCreate(shopCartData);
+    await ShopCart.bulkCreate(shopCartData);
     
         process.exit(0);
     };

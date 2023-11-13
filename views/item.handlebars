@@ -1,0 +1,100 @@
+{{!< layouts/main}}
+
+{{!-- Additional content specific to the item page --}}
+
+<div class="item-details">
+    <h1>{{item.name}}</h1>
+    <p>{{item.description}}</p>
+    <p>Price: ${{item.price}}</p>
+     <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" value="1" min="1">
+    <p>Discounted Price: ${{item.discountedPrice}}</p>
+    <button class="add-to-cart-btn" data-item-id="{{item.id}}">Add to Cart</button>
+</div>
+    <!-- Add more details as needed -->
+</div>
+
+{{!-- Learn More link --}}
+<div class="learn-more-section">
+    <p>Want to learn more? <a href="/html/learnmore.html">Learn More</a></p>
+
+    
+
+{{!-- More content for the item page --}}
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const addToCartBtn = document.querySelector('.add-to-cart-btn');
+
+        addToCartBtn.addEventListener('click', function () {
+            const itemId = addToCartBtn.getAttribute('data-item-id');
+            // Send an AJAX request to your server to add the item to the cart
+            // Example using fetch API
+            fetch(`/api/cart/add/${itemId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                // You might want to send additional data like quantity, etc.
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Handle the response, update UI, show success message, etc.
+                    console.log('Item added to cart:', data);
+                })
+                .catch(error => {
+                    console.error('Error adding item to cart:', error);
+                });
+        });
+    });
+
+
+
+
+    </script>
+    
+        {{!-- Add a form to allow users to add items to their cart --}}
+
+
+    {{!< layouts/main}}
+
+{{!-- Additional content specific to the item page --}}
+<div class="item-details">
+    <h1>{{item.name}}</h1>
+    <p>{{item.description}}</p>
+    <p>Price: ${{item.price}}</p>
+    <button class="add-to-cart-btn" data-item-id="{{item.id}}">Add to Cart</button>
+</div>
+
+{{!-- Learn More link --}}
+<div class="learn-more-section">
+    <p>Want to explore more items? <a href="./browse.html">Browse More</a></p>
+</div>
+
+{{!-- More content for the item page --}}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const addToCartBtn = document.querySelector('.add-to-cart-btn');
+
+        addToCartBtn.addEventListener('click', function () {
+            const itemId = addToCartBtn.getAttribute('data-item-id');
+            // Send an AJAX request to your server to add the item to the cart
+            // Example using fetch API
+            fetch(`/api/cart/add/${itemId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                // You might want to send additional data like quantity, etc.
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Handle the response, update UI, show success message, etc.
+                    console.log('Item added to cart:', data);
+                })
+                .catch(error => {
+                    console.error('Error adding item to cart:', error);
+                });
+        });
+    });
+</script>

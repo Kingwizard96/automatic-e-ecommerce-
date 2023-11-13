@@ -1,6 +1,6 @@
 [
     {
-    "order_id": "12345",
+    "order_number": "12345",
     "customer":{
         "name": "Bulbasaur",
         "email": "email@yahoo.com"
@@ -17,12 +17,12 @@
             "item_quantity": 2
        }
     ],  
-    "total_price": 539.97,
+    "total": 539.97,
     "order_date": "2021-01-01",
     "order_status": "shipped"
     },
     {
-    "order_id": "12346",
+    "order_number": "12346",
     "customer":{
         "name": "Charmander",
         "email": "charmander2@yahoo.com"
@@ -39,12 +39,12 @@
             "item_quantity": 2
        }
     ],
-    "total_price": 229.97,
+    "total": 229.97,
     "order_date": "2021-01-02",
     "order_status": "processing"
     },
     {
-    "order_id": "12347",
+    "order_number": "12347",
     "customer":{
         "name": "Squirtle",
         "email": "Squirtler@aol.com"
@@ -62,12 +62,12 @@
             "item_quantity": 2
        }
     ],
-    "total_price": 225.00,
+    "total": 225.00,
     "order_date": "2021-01-03",
     "order_status": "delivered"
     },
     {
-    "order_id": "12348",
+    "order_number": "12348",
     "customer":{
         "name": "Pikachu",
         "email": "emailPika@yahoo.com"
@@ -79,12 +79,12 @@
             "item_quantity": 1
        }
     ],
-    "total_price": 20000,
+    "total": 20000,
     "order_date": "2021-01-04",
     "order_status": "delivered"
     },
     {
-    "order_id": "12349",
+    "order_number": "12349",
     "customer":{
         "name": "Eevee",
         "email": "eevee@gmail.com"
@@ -101,7 +101,7 @@
             "item_quantity": 1
        }
     ],
-    "total_price": 1050.98,
+    "total": 1050.98,
     "order_date": "2021-01-05",
     "order_status": "processing"
     }
