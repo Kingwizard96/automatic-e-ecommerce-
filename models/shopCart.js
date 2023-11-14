@@ -30,7 +30,7 @@ ShopCart.init(
                 }
             },
             // quantity column
-            quantity: {
+            item_quantity: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 defaultValue: 1,
