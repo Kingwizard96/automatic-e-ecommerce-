@@ -3,7 +3,7 @@ const Category = require('./category');
 const User = require('./user');
 const Order = require('./order');
 const  Post = require('./post');
-
+const ShopCart = require('./shopCart');
 // create associations
 
 Post.hasOne(Category, {
@@ -34,5 +34,26 @@ Post.hasOne(Item, {
 Item.belongsTo(Post, {
     foreignKey: 'post_id',
 });
-module.exports = { Item, Category, User, Order, Post};
+
+Item.belongsTo(Category, {
+    foreignKey: 'category_id',
+    onDelete: 'CASCADE',
+});
+
+Category.hasMany(Item, {
+    foreignKey: 'category_id',
+    onDelete: 'CASCADE',
+});
+
+User.hasMany(ShopCart, {
+    foreignKey: 'user_id',
+    onDelete: 'CASCADE'
+});
+
+ShopCart.belongsTo(User, {
+    foreignKey: 'user_id',
+    onDelete: 'CASCADE'
+});
+
+module.exports = { Item, Category, User, Order, Post, ShopCart};
 
