@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/allpost.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/allpost.css">
    
-    <link rel="stylesheet" href="./css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="/css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     {{!-- Add your css library CDN link here --}}
    
@@ -20,7 +20,7 @@
         <header>
                 <div class="logo">
                     <a href="/">
-                        <img src="./css/images/Logo.png" alt="Logo">
+                        <img src="/css/images/Logo.png" alt="Logo">
                     </a>
                 </div>
     
@@ -35,15 +35,16 @@
                     </div>
                     
                     <div class="navbutton">
-                        <a href="#">Help Center</a>
+                        <a href="">Help Center</a>
                     </div>
 
                    {{#if logged_in}}
-                    <a href="/profile">profile</a> |
+                    <a href="/profile">profile</a> 
                     <button class="no-button" id="logout">logout</button>
                     {{else}}
                     <a href="/login">login</a>
                     {{/if}}
+
 
                     <div class="signupnavbutton">
                         <a href="/login">Sign Up</a>
