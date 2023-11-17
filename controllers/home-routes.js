@@ -27,8 +27,11 @@ router.get('/', async (req, res) => {
   //localhost:3001/login
 router.get('/login', (req, res) => {
   // Add a conditional statement to check if the user is logged in (if (req.session.loggedIn))
+  
     res.render('login');
   });
+
+
 
 router.get('/login', async (req, res) => {
     try {
@@ -65,6 +68,7 @@ router.get('/login', async (req, res) => {
 
   router.get('/all-posts', async (req,res) => {
     // in this case we would have a try/catch block to pull the posts from the db
+
     res.render('all-posts');
   });
 

@@ -1,5 +1,5 @@
 html {
-    background-color: rgba(17, 37, 47, 1);
+    background-color: rgb(59 71 76);
 }
 
 .bg-container {
@@ -28,7 +28,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 60px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid rgb(247, 245, 245);
 }
 
 
@@ -53,7 +53,7 @@ a.mybutton {
 }
 
 .navbutton {
-    padding-right: 140px;
+    padding-right: 20px;
     font-family: 'Playfair Display', serif;
     display: inline-block;
     align-items: center;
@@ -62,7 +62,7 @@ a.mybutton {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(17, 37, 47, 1);
+    background-color: rgb(59 71 76);
     margin: 0;
     padding: 0;
 }
@@ -110,16 +110,17 @@ select {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: rgba(58, 0, 136, 1);
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: rgb(16, 15, 15);
 }
 
 input:required:invalid,

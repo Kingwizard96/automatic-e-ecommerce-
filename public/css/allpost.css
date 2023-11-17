@@ -1,5 +1,5 @@
 html {
-    background-color: rgba(17, 37, 47, 1);
+    background-color: rgb(42, 121, 160);
 }
 
 .bg-container {
@@ -117,7 +117,7 @@ p {
 }
 
 .mybutton:hover {
-    background-color: black;
+    background-color: rgb(16, 15, 15);
     transition-duration: 1s;
 }
 
@@ -150,8 +150,13 @@ a.mybutton {
     display: inline-block;
     position: relative;
     border-radius: 10px;
+    margin-left: 20px;
 }
 
+.signupnavbutton:hover {
+    background-color: rgb(16, 15, 15);
+    transition-duration: 1s;
+}
 
 /* Footer Section */
 

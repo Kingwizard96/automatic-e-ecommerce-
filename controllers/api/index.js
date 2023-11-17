@@ -10,7 +10,7 @@ const userRoutes = require('./user-routes');
 // router.use('/api', apiRoutes);
 router.use('/category', categoryRoutes);
 // router.use('/item', itemRoutes);
-router.use('/user', userRoutes);
+router.use('/users', userRoutes);
 // router.use('/shopCart', shopCartRoutes);
 
 // router.use('/checkout', checkoutRoutes);

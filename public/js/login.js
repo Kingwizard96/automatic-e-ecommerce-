@@ -15,7 +15,7 @@ const signupHandler = async (event) => {
         });
 
         if (response.ok) {
-            document.location.replace('/home');
+            document.location.replace('/');
         } else {
             alert(response.statusText);
         }
@@ -36,7 +36,7 @@ const loginHandler = async (event) => {
         });
 
         if (response.ok) {
-            document.location.replace('/home');
+            document.location.replace('/');
         } else {
             alert('Login failed. Please check your credentials.');
         }

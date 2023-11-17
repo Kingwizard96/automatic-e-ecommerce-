@@ -8,7 +8,8 @@ const validator = require('validator');
 dotenv.config();
 
 router.post('/signup', async (req, res) => {
-try {
+  console.log(req.body);
+  try {
   const userData = await User.create(req.body);
   
   const validEmail = validator.isEmail(req.body.email);
@@ -62,6 +63,7 @@ router.post('/logout', (req, res) => {
 });
 
 
+module.exports = router;
 
 
 
