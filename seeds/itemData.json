@@ -4,6 +4,7 @@
         "item_price": 14.99,
         "stock": 14,
         "category_id": 1,
+        "filename": "plain-t.jpg",       
         "description": "Plain t-shirt for everyday wear."
     },
     {
@@ -11,6 +12,7 @@
         "item_price": 399.99,
         "stock": 25,
         "category_id": 2,
+        "filename": "ps-digital.jpg",
         "description": "The newest gaming console from Sony."
     },
     {
@@ -18,6 +20,7 @@
         "item_price": 99.99,
         "stock": 25,
         "category_id": 2,
+        "filename": "ps-headset.jpg",
         "description": "The newest gaming headset from Sony."
     },
     {
@@ -25,6 +28,7 @@
         "item_price": 499.99,
         "stock": 25,
         "category_id": 2,
+        "filename": "xbox-x.jpg",
         "description": "The newest gaming console from Microsoft."
     },
     {
@@ -32,6 +36,7 @@
         "item_price": 299.99,
         "stock": 25,
         "category_id": 2,
+        "filename": "switch.jpg",          
         "description": "The newest gaming console from Nintendo."
     },
     {
@@ -53,27 +58,31 @@
         "item_price": 499.99,
         "stock": 25,
         "category_id": 2,
+        "filename": "ps-standard.jpg",
         "description": "The standard edition of the Playstation 5."
     },
     {
-        "item_name": "honda civic 2009 ls",
-        "item_price": 5000,
+        "item_name": "subaru wrx sti 2004",
+        "item_price": 25000,
         "stock": 1,
         "category_id": 8,
-        "description": "A used honda civic 2009 ls."
+        "filename": "04wrx.jpg",
+        "description": "A good condition 2004 wrx sti."
     },
     {
-        "item_name": "bmw 2018 3 series",
+        "item_name": "bmw 2018 m2 series",
         "item_price": 20000,
         "stock": 1,
         "category_id": 8,
-        "description": "A used bmw 2018 3 series."
+        "filename": "m2.jpg",       
+        "description": "A used bmw 2018 m2 series."
     },
     {
         "item_name": "nike dunk low",
         "item_price": 100,
         "stock": 12,
         "category_id": 1,
+        "filename": "dunk-low.jpg",
         "description": "A pair of nike dunk low."
     },
     {
@@ -81,14 +90,16 @@
         "item_price": 100,
         "stock": 18,
         "category_id": 1,
+        "filename": "dunk-high.jpg",
         "description": "A pair of nike dunk high."
     },
     {
-        "item_name": "kurig coffee maker",
+        "item_name": "keurig coffee maker",
         "item_price": 100,
         "stock": 10,
         "category_id": 3,
-        "description": "A kurig coffee maker.",
+        "filename": "keurig.jpg",
+        "description": "A keurig coffee maker.",
         "discount": 0.1
     },
     {
@@ -96,6 +107,7 @@
         "item_price": 100,
         "stock": 10,
         "category_id": 3,
+        "filename": "microwave.jpg",
         "description": "A microwave.",
         "discount": 0.25
     },
@@ -104,6 +116,7 @@
         "item_price": 100,
         "stock": 10,
         "category_id": 3,
+        "filename": "toaster.jpg",
         "description": "A toaster.",
         "discount": 0.5
     },
@@ -112,20 +125,23 @@
         "item_price": 100,
         "stock": 10,
         "category_id": 3,
+        "filename": "blender.jpg",
         "description": "A blender."
     },
     {
         "item_name": "siberian-husky",
-        "item_price": 1000,
+        "item_price": 600,
         "stock": 1,
         "category_id": 9,
+        "filename": "husky.jpg",
         "description": "A siberian-husky puppy."
     },
     {
         "item_name": "german-shepherd",
-        "item_price": 1000,
+        "item_price": 600,
         "stock": 1,
         "category_id": 9,
+        "filename": "g-shepherd.jpg",
         "description": "A german-shepherd puppy."
     },
     {
@@ -133,6 +149,7 @@
         "item_price": 1000,
         "stock": 1,
         "category_id": 9,
+        "filename": "g-retriever.jpg",
         "description": "A golden-retriever puppy."
     },
     {
@@ -141,6 +158,7 @@
         "stock": 1,
         "category_id": 4,
         "description": "A couch.",
+        "filename": "couch.jpg",
         "discount": 0.1
     },
     {
@@ -149,6 +167,7 @@
         "stock": 1,
         "category_id": 4,
         "description": "A chair.",
+        "filename": "chair.jpg",
         "discount": 0.25
     },
     {
@@ -157,6 +176,7 @@
         "stock": 1,
         "category_id": 4,
         "description": "A table.",
+        "filename": "table.jpg",
         "discount": 0.5
     },
     {
@@ -164,50 +184,31 @@
         "item_price": 1000,
         "stock": 1,
         "category_id": 4,
+        "filename": "bed.jpg",
         "description": "A bed."
     },
     {
-        "item_name": "iphone 12",
+        "item_name": "iphone 14",
         "item_price": 1000.99,
         "stock": 1,
         "category_id": 5,
+        "filename": "iphone-14.jpg",
         "description": "A iphone 12."
     },
     {
-        "item_name": "iphone 12 case",
+        "item_name": "iphone 14 case",
         "item_price": 49.99,
         "stock": 12,
         "category_id": 5,
+        "filename": "case-14.jpg",
         "description": "A iphone 12 case."
     },
     {
-        "item_name": "iphone 11",
-        "item_price": 1000,
-        "stock": 1,
-        "category_id": 5,
-        "description": "A iphone 11.",
-        "discount": 0.25
-    },
-    {
-        "item_name": "iphone 10",
-        "item_price": 1000,
-        "stock": 1,
-        "category_id": 5,
-        "description": "A iphone 10.",
-        "discount": 0.5
-    },
-    {
-        "item_name": "iphone 9",
-        "item_price": 1000,
-        "stock": 1,
-        "category_id": 5,
-        "description": "A iphone 9."
-    },
-    {
         "item_name": "macbook pro",
-        "item_price": 1000,
+        "item_price": 1400,
         "stock": 1,
         "category_id": 6,
+        "filename": "mac-pro.jpg",
         "description": "A macbook pro.",
         "discount": 0.1
     },
@@ -216,29 +217,9 @@
         "item_price": 1000,
         "stock": 1,
         "category_id": 6,
+        "filename": "mac-air.jpg",
         "description": "A macbook air.",
         "discount": 0.25
-    },
-    {
-        "item_name":"fenty makeup",
-        "item_price": 300,
-        "stock": 12,    
-        "category_id": 7,
-        "description": "A fenty makeup."
-    },
-    {
-        "item_name":"hair dryer",   
-        "item_price": 300,
-        "stock": 12,
-        "category_id": 7,
-        "description": "A hair dryer."
-    },
-    {
-        "item_name":"hair straightener",
-        "item_price": 300,
-        "stock": 12,
-        "category_id": 7,
-        "description": "A hair straightener."
     }
 ]
 
