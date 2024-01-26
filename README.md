@@ -114,8 +114,7 @@ If you have any questions about the project, please feel free to contact
 
 - Kingwizard96 Email: calvarado1996@gmail.com
 - Kiedae Email: ernestwilliams335@gmail.com
-- Basitmalik97 Email:
-basitmalik97@gmail.com
+- Basit's Email: basitmalik97@gmail.com
 
 
 
